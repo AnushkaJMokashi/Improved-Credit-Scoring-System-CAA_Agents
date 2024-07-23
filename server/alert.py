@@ -115,7 +115,7 @@ def admin_dashboard():
             
             
         admin_json = {
-            "customerDetails": [convert_to_serializable(customer)],
+            "customerDetails": [convert_to_serializable(customers)],
             "alerts" : alerts,
             "isValid": isValid
         }
