@@ -4,6 +4,7 @@ export default function WarningTable(props) {
   const filterLength = props.filterLength;
   const filteredAlerts = props.filteredAlerts;
   const resultData = props.resultData;
+  
   return (
     <div className="d-flex justify-content-center">
       <div className="col-md-10">

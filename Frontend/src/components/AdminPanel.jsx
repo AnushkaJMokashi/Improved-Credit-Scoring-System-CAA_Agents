@@ -20,7 +20,9 @@ export default function AdminPanel() {
         "http://localhost:9000/admin",
         creditInput
       );
-      setResultData(response.data.Customer_Info);
+      // Flatten the customerDetails array
+      const flattenedCustomerDetails = response.data.Customer_Info.customerDetails.flat();
+      setResultData({ ...response.data.Customer_Info, customerDetails: flattenedCustomerDetails });
       setIsValid(response.data.Customer_Info.isValid === "true");
     } catch (error) {
       console.error("Error", error);

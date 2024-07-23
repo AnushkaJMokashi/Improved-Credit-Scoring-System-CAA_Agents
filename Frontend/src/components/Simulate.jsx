@@ -19,13 +19,11 @@ export default function Simulate() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Submitting simulation data:", simulateScore); // Debug log
     try {
       const response = await axios.post(
         "http://localhost:9000/simulate",
         simulateScore // Send simulateScore directly
       );
-      console.log("Response data:", response.data); // Debug log
       setFinalScore(response.data.final_score);
     } catch (error) {
       console.error("ERROR", error);
@@ -40,7 +38,6 @@ export default function Simulate() {
         ...prevVal,
         [name]: intValue,
       }));
-      console.log(`Updated ${name} to`, intValue); // Debug log
     }
   };
 
