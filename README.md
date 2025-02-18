@@ -58,3 +58,9 @@ Our credit scoring and loan prediction system uses technologies like AI and mach
 - **Anushka Mokashi**: anushkamokashi@gmail.com
 - **Atharva Todkary**: atharvatodkary@gmail.com
 - **Chaitanya Dond**: dondchaitanya@gmail.com
+
+## Linkedin Post:
+https://www.linkedin.com/posts/anushka-mokashi24_fintech-machinelearning-creditscore-activity-7221597288802992128-Wsj8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADm6OvkB6Gf7r1Ib41FMeVkZX60yW5mlX-4
+
+## Implementation in Action:
+https://improved-credit-scoring-system-caa-ue47.onrender.com/
